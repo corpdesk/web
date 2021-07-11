@@ -88,12 +88,13 @@
               </div>
 
               <h2 class="entry-title">
-                <a href="blog-single.html">Architecture</a>
+                <a href="blog-single.html">Corpdesk UI-Architecture</a>
               </h2>
 
               <div class="entry-meta">
                 <ul>
-                  <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-single.html">Admin</a></li>
+                  <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a
+                      href="blog-single.html">Admin</a></li>
                   <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-single.html"><time
                         datetime="2020-01-01">Jan 9, 2021</time></a></li>
                   <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-single.html">12
@@ -103,15 +104,131 @@
 
               <div class="entry-content">
                 <p>
-                  Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et
-                  laboriosam eius aut nostrum quidem aliquid dicta.
-                  Et eveniet enim. Qui velit est ea dolorem doloremque deleniti aperiam unde soluta. Est cum et quod
-                  quos aut ut et sit sunt. Voluptate porro consequatur assumenda perferendis dolore.
+                  CORPDESK UI architecture is designed to solve problems associated with up-scaling of large
+                  development projects. Problems are commonly felt both at the level of development and deployment.
+                  The solution is based on micro-frontend concept and designed to work away from monolith applications
+                  where one project has a single repository whose codes, however large, cannot be separated efficiently
+                  during development or deployment.
                 </p>
 
                 <p>
-                  Sit repellat hic cupiditate hic ut nemo. Quis nihil sunt non reiciendis. Sequi in accusamus harum vel
-                  aspernatur. Excepturi numquam nihil cumque odio. Et voluptate cupiditate.
+                  The end effect are:
+                </p>
+                <ul>
+                  <li>
+                    a single host called a Shell-App.
+                  </li>
+                  <li>
+                    several Remote-Apps
+                  </li>
+                  <li>
+                    Shared sets of UI-Libraries
+                  </li>
+                </ul>
+
+                <p>
+                  Strategy Goals:
+                </p>
+                <ul>
+                  <li>
+                    Minimised development time by developing starter templates and hosting common logic in shared libraries
+                  </li>
+                  <li>
+                    Rather than have monolithic project/repositories, the various components are managed 
+                    independently in seperate repositories. This way development managers are able
+                    to have clear focus with more predictable timelines.
+                  </li>
+                  <li>
+                    Developers of the Remote-Apps rely on shared assortment of libraries so consistency is maintained.
+                  </li>
+                </ul>
+
+                <p>
+                  RemoteApps are consumed by the single Shell-App where they run and sets of Shared UI-Libraries.  
+                  Remote-Apps run in independent servers and ports.
+                </p>
+                <p>
+                  The above allows designers and developers to focus on specific segments of large application as 
+                  independent projects. As they develop, they rely on common libraries for consistency and in the end, 
+                  all the applications are run by a Shell-App in homogeneous way. 
+                </p>
+                <p>
+                  Architecturally, the role of Shell-App is synonymous to operating system where applications can be 
+                  made independently but needs an operating system to run on. For simplicity, visualize that in this 
+                  case it handles navigation, authentication and session management. Some interesting improvement over 
+                  current operating systems is that it can run an application at a distance without installing it.
+                </p>
+                
+
+                <h3 class="entry-title">
+                  <a href="blog-single.html">Comparing Shell-App and Operating System</a>
+                </h3>
+                <p>
+                  Part of the concept of operating system is to allow application build elsewhere to be installble 
+                  to another operating system.  For example in android system, one can access the application store
+                  to select an application then install as per user demand.  This is synonimous to what CORPDESK has 
+                  implemented. One is able to go to AppStore and select a desired application and install it.
+                  in CORPDESK this can be allowed at the server only or extened to the end users.
+                  
+                </p>
+
+                <h3 class="entry-title">
+                  <a href="blog-single.html">CORPDESK Core</a>
+                </h3>
+
+                <p>
+                  Below are APIs that CORPDESK is built with.  Developers are then free to extend any application there after.
+                </p>
+
+                <ul>
+                  <li>
+                    <p>
+                      Corpdesk Objects (cd-object)
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Module/Controller/Action concept
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Users and Groups
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      ACL
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Menu System
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Users and Groups
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Company Concept
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Command/Response concept
+                    </p>
+                  </li>
+                </ul>
+
+                <h3 class="entry-title">
+                  <a href="blog-single.html">Standardised Inter-Tiers Communication</a>
+                </h3>
+
+                <p>
+                  Below are APIs that CORPDESK is built with.  Developers are then free to extend any application there after.
                 </p>
 
                 <blockquote>
