@@ -11,6 +11,12 @@ https://www.freepik.com/free-vector/people-with-smartphones-using-mobile-banking
 - check royalty free pix
 - create a categorized folder for thematic pix
 - progressively replace pix as per themes
+////////////////////
+- favicon
+- correct misplaced headers
+
+08/07/2022
+- correct misplaced headers
 
 10/06/2022
 - integrate emp and cd branding
