@@ -1,8 +1,8 @@
 /**
- * Template Name: FlexStart - v1.4.0
- * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
+ * Template Name: EMP Services Ltd - v1.4.0
+ * Template URL: https://empservices.co.ke/EMP Services Ltd-bootstrap-startup-template/
  * Author: BootstrapMade.com
- * License: https://bootstrapmade.com/license/
+ * License: https://empservices.co.ke/license/
  */
 (function () {
   "use strict";
