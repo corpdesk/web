@@ -14,6 +14,11 @@ https://www.freepik.com/free-vector/people-with-smartphones-using-mobile-banking
 ////////////////////
 - favicon
 - correct misplaced headers
+//////////////////
+content: Software Research and Development
+- https://www.tietoevry.com/en/create/software-engineering-services/software-engineering-advisory/
+- https://www.apogaeis.com/services/innovation/research-and-development/
+- https://www.flatworldsolutions.com/IT-services/software-research-and-development-services.php
 
 08/07/2022
 - correct misplaced headers
