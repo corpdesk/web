@@ -15,10 +15,39 @@ https://www.freepik.com/free-vector/people-with-smartphones-using-mobile-banking
 - favicon
 - correct misplaced headers
 //////////////////
-content: Software Research and Development
+content: 
+Software Research and Development
 - https://www.tietoevry.com/en/create/software-engineering-services/software-engineering-advisory/
 - https://www.apogaeis.com/services/innovation/research-and-development/
 - https://www.flatworldsolutions.com/IT-services/software-research-and-development-services.php
+
+Network Diagrams
+- topology
+- selected HA patterns
+Videos:
+- cd login multiple windows
+- cd scafolding
+- 
+- jenkins in progress
+- ansible in progress
+3d images
+- server architectures
+
+Use cases:
+- single brix
+- HA brix (3)
+- election
+- contact tracing
+- Africa-SACCOS database
+    - KYC
+    - Regulatory compliance
+    - performance analysis
+    - SACCOS Award system
+- Distance learning Platform
+- Subscribable Project Scheduler
+- Subscribable Push Services
+- Proximity Processor
+
 
 08/07/2022
 - correct misplaced headers
