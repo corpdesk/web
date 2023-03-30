@@ -21,6 +21,24 @@ Software Research and Development
 - https://www.apogaeis.com/services/innovation/research-and-development/
 - https://www.flatworldsolutions.com/IT-services/software-research-and-development-services.php
 
+
+Donnation Button
+
+Pdf Documents
+- corpdesk (white paper)
+- cloud-brix (white paper)
+
+Blogs:
+- corpdesk (white paper)
+- cloud-brix (white paper)
+- public cloud usage (challenges)
+- institutional presentations
+- MOU with technical bloggers
+    - Facebook - 
+- MOU with learning institutions
+- MOU with professionals for blogs and blog comments
+
+
 Network Diagrams
 - topology
 - selected HA patterns
