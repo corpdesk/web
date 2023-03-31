@@ -177,7 +177,7 @@
                             <div class="entry-content">
                                 <p>
                                     CORPDESK is a system that facilitate rapid application development.
-                                    The full stack, from front end framework to back-end  is implemented in javascript.
+                                    The full stack, from front end framework to back-end is implemented in javascript.
                                     This is done using the latest state of art frameworks and technologies.
                                 </p>
                                 <div class="read-more">
@@ -211,8 +211,10 @@
 
                             <div class="entry-content">
                                 <p>
-                                    While cloud-brix can be independent of COPRDESK, it is CORPDESK that is used as a default interface for cloud-brix Editoristration and management.
-                                    CORPDESK applications also being cloud-ready, can be depoyed very easily in cloud-brix.
+                                    While cloud-brix can be independent of COPRDESK, it is CORPDESK that is used as a
+                                    default interface for cloud-brix Editoristration and management.
+                                    CORPDESK applications also being cloud-ready, can be depoyed very easily in
+                                    cloud-brix.
                                 </p>
                                 <div class="read-more">
                                     <a href="blog-single.html">Read More</a>
@@ -245,11 +247,14 @@
 
                             <div class="entry-content">
                                 <p>
-                                    Moddern applications must be able to deploy in destributed fashion. The allows for easy scalability without much constrants.
-                                    CORPDESK front end modules can be installed at runtime without need for complicated integration issues. 
-                                    This also facilitate flexible development and deployment. 
-                                    The server is designed in close analogy with a standard operating system in regards to software development for given operating system.
-                                    Different develpers can deploy seperate applications on the same CORPDESK server. 
+                                    Moddern applications must be able to deploy in destributed fashion. The allows for
+                                    easy scalability without much constrants.
+                                    CORPDESK front end modules can be installed at runtime without need for complicated
+                                    integration issues.
+                                    This also facilitate flexible development and deployment.
+                                    The server is designed in close analogy with a standard operating system in regards
+                                    to software development for given operating system.
+                                    Different develpers can deploy seperate applications on the same CORPDESK server.
                                 </p>
                                 <div class="read-more">
                                     <a href="blog-single.html">Read More</a>
@@ -270,7 +275,7 @@
 
                     <div class="col-lg-4">
 
-                        <div class="sidebar">
+                        <div id="sidebar" class="sidebar">
 
                             <h3 class="sidebar-title">Search</h3>
                             <div class="sidebar-item search-form">
@@ -459,6 +464,13 @@
 
     <!-- Template Main JS File -->
     <script src="../assets/js/main.js"></script>
+
+    <!-- include shared pages -->
+    <script>
+        includePage('#navbar', 'shared/h-nav.html');
+        includePage('#sidebar', 'shared/sidenav.html');
+        includePage('#footer', 'shared/footer.html');
+    </script>
 
 </body>
 
