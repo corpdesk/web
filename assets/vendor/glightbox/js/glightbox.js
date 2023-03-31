@@ -664,15 +664,15 @@
     return angle * 180 / Math.PI;
   }
 
-  var EventsHandlerAdmin = function () {
-    function EventsHandlerAdmin(el) {
-      _classCallCheck(this, EventsHandlerAdmin);
+  var EventsHandlerEditor = function () {
+    function EventsHandlerEditor(el) {
+      _classCallCheck(this, EventsHandlerEditor);
 
       this.handlers = [];
       this.el = el;
     }
 
-    _createClass(EventsHandlerAdmin, [{
+    _createClass(EventsHandlerEditor, [{
       key: "add",
       value: function add(handler) {
         this.handlers.push(handler);
@@ -703,13 +703,13 @@
       }
     }]);
 
-    return EventsHandlerAdmin;
+    return EventsHandlerEditor;
   }();
 
   function wrapFunc(el, handler) {
-    var EventshandlerAdmin = new EventsHandlerAdmin(el);
-    EventshandlerAdmin.add(handler);
-    return EventshandlerAdmin;
+    var EventshandlerEditor = new EventsHandlerEditor(el);
+    EventshandlerEditor.add(handler);
+    return EventshandlerEditor;
   }
 
   var TouchEvents = function () {
