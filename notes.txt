@@ -79,6 +79,7 @@ App Store:
 - cd-social
 - online-academy
 - cd-pms
+- d-panel (domain panel)
 Trainint and Certification:
     - sample site:
     - https://learn.microsoft.com/en-us/training/
