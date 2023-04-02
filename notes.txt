@@ -66,6 +66,19 @@ Use cases:
 - Subscribable Push Services
 - Proximity Processor
 
+App Store:
+- Biometrics API
+- HR-Cloud
+- cd-accts
+- Hyper-Proxim
+- Cloud-Mart
+- KYC
+- farm-man: Green House Manager
+- secure-ballot
+/////
+- cd-social
+- online-academy
+- cd-pms
 
 08/07/2022
 - correct misplaced headers
