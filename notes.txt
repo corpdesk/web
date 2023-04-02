@@ -79,6 +79,9 @@ App Store:
 - cd-social
 - online-academy
 - cd-pms
+Trainint and Certification:
+    - sample site:
+    - https://learn.microsoft.com/en-us/training/
 
 08/07/2022
 - correct misplaced headers
