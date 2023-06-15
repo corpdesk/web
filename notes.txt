@@ -50,6 +50,9 @@ Videos:
 - ansible in progress
 3d images
 - server architectures
+- https://www.turbosquid.com/Search/3D-Models/server
+- https://www.turbosquid.com/3d-models/3d-cpu-server-board-model-1186836
+- https://www.gigabyte.com/Enterprise/Rack-Server
 
 Use cases:
 - single brix
